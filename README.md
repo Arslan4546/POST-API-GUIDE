@@ -1,1 +1,1 @@
-this repository guide on post API
+THIS REPOSITORY CONTAINS COMPLETE GUIDE POST API 
