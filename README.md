@@ -1,1 +1,6 @@
-THIS REPOSITORY CONTAINS COMPLETE GUIDE POST API 
+## Flutter-POST-API-GUIDE
+This repository serves as a comprehensive guide to implementing POST APIs. From beginners to experienced developers, this tutorial covers the basics of creating, testing, and deploying POST APIs effectively. Whether you're building a simple CRUD application or a complex web service, this tutorial provides step-by-step instructions, code examples, and best practices to streamline your development process. Dive in and master the art of handling POST requests with ease! 
+
+## About me 😎
+Hello! I'm Arslan, and I'm thrilled to be your instructor for this course. With over 2 years of experience in Flutter mobile app development, I've had the opportunity to work on a wide range of exciting projects and enhance my skills in building robust and user-friendly applications. My passion for teaching and sharing knowledge has led me to create this repository, where you'll find a collection of code examples, exercises, and projects to help you grasp the fundamentals of Dart and excel in Flutter development. I believe in a hands-on approach to learning, and I'll provide you with practical examples and best practices to ensure you have a solid foundation in these technologies.
+
