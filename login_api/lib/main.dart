@@ -1,6 +1,8 @@
+import 'dart:convert';
+
 import 'package:http/http.dart';
 import 'package:flutter/material.dart';
-//first of all you should learn about how to post API dost on the server
+//first of all you should learn about how to post API  on the server
 // https://youtu.be/pUGmhtqVJRk?si=mcBB8iyZ2VMIcLPH
 //then make this project or overview this project
 
@@ -16,17 +18,19 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
 
-  void login(String email,password) async {
+  void login(String email,String password) async {
     try{
       Response response = await post(
-        Uri.parse("https://reqres.in/api/users"),
+        Uri.parse("https://reqres.in/api/login"),
         body: {
           //you should give these parameter same as in your json data
-          "name": email,
-          "job": password,
+          "email": email,
+          "password": password,
         }
       );
-      if(response.statusCode==201){
+      if(response.statusCode==200){
+        var data = jsonDecode(response.body.toString());
+        print(data["token"]);
         print("Login Successfully");
 
       }else{
